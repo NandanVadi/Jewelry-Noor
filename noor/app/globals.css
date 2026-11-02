@@ -1,0 +1,12 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{background:#F5EFE6;color:#211714}
+body{font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.h-display{font-family:var(--serif);font-weight:400;line-height:.95;letter-spacing:-.01em}
+.label{font-size:11px;letter-spacing:.22em;text-transform:uppercase}
+.link{position:relative;padding-bottom:4px}
+.link:after{content:'';position:absolute;left:0;bottom:0;height:1px;width:100%;background:currentColor;transform:scaleX(.3);transform-origin:left;transition:transform .5s}
+.link:hover:after{transform:scaleX(1)}
+.grain:before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.08;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+:focus-visible{outline:1px solid #B89A62;outline-offset:4px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (hover:none){.cur{display:none}}

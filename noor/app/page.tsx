@@ -1,0 +1,2 @@
+import Hero from '@/components/Hero';import {Stats,Statement,Categories,Products,Bridal,Legacy,Craft,Showroom,Consult,Stories,Journal,Care,Stores,Newsletter,Footer} from '@/components/Sections';
+export default function Home(){return <main><Hero/><Stats/><Statement/><Categories/><Products/><Bridal/><Legacy/><Craft/><Showroom/><Consult/><Stories/><Journal/><Care/><Stores/><Newsletter/><Footer/></main>}
